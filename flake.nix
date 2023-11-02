@@ -29,6 +29,7 @@
         packages = {
           dae = pkgs.callPackage ./dae/package.nix { };
           daed = pkgs.callPackage ./daed/package.nix { };
+          daed-revived-next = pkgs.callPackage ./daed-revived-next/package.nix { };
         };
 
         checks = {
